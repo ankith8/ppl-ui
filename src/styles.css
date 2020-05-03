@@ -1,0 +1,150 @@
+
+@font-face {
+  font-family: Roboto-light;
+  src: url('../src/assets/fonts/Roboto-Light.ttf') format('.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Roboto-light,
+    Arial,
+    Helvetica,
+    sans-serif;
+}
+
+body {
+  background-image: url('../src/assets/texture/qbkls.png');
+  background-repeat: repeat;
+}
+
+.midnight-green {
+  color: #073B4C;
+}
+
+.ncs-blue {
+  color: #118AB2;
+}
+
+.carribean-green {
+  color: #06D6A0;
+}
+
+.orange-yellow {
+  color: #FFD166;
+}
+
+.paradise-pink {
+  color: #EF476F;
+}
+
+h1 {
+  color: #06D6A0;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+h2 {
+  color: #FFD166;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+div {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+input {
+  width: 80%;
+  margin: 10px;
+  padding: 18px 10px;
+  border-radius: 10px;
+  border: 1px solid #FFD166;
+  box-shadow: 1px 0.5px #888888;
+  font-size: 18px;
+}
+button {
+  display: inline;
+  margin: 5px 20px;
+  padding: 12px 10px;
+  width: 30%;
+  background-color: #06D6A0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+
+  border-radius: 10px;
+
+  text-align: center;
+}
+
+button:hover {
+  background-color: #FFD166;
+  /* color: #06D6A0; */
+  color: #073B4C;
+}
+
+.fontIcon{
+  margin: 0 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  /* background-color: #afafaf; */
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  border-left : 5px solid #EF476F;
+  background-color: #FFD166;
+  border-radius: 10px;
+  margin: 5px 2px;
+  align-items: stretch;
+}
+
+.card-item{
+  width: calc(100% / 9);
+  /* background: #118AB2; */
+  background:#151515;
+  min-width: 100px;
+  box-shadow: 2px 2px #0000001a;
+}
+
+.card-item p {
+  padding: 5px;
+  margin: 5px 2px;
+  color: white;
+  text-align: center;
+  word-wrap: break-word;
+  border-left: 1px solid;
+}
+
+.select-container{
+  display: inline-block;
+  margin: auto;
+  padding: 12px 10px;
+  width: 30%;
+  background-color: #06D6A0;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.select-header{
+  color: white;
+  margin-right: 20px;
+}
+
+.select-box{
+ width: 50%;
+ border-radius: 10px;
+ border: 1px solid #FFD166;
+ box-shadow: 1px 0.5px #888888;
+ font-size: 18px;
+}
